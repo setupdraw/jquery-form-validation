@@ -21,4 +21,4 @@ function submitForm() {
 		return validateForm();
 	});
 ```
-	for a standard form submission.
+for a standard form submission.
