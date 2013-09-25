@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Setupdraw jQuery Form Validation</title>
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="js/validation.js"></script>
+	<script src="js/general.js"></script>
+</head>
+<body>
+	<form id="my-form" action="form.php" method="post">
+		<h1>jQuery Form Validation</h1>
+		
+		<div id="ajax-message"></div>
+		<div id="validation-message">Please check the required fields are complete.</div>
+		
+		
+		<label>Title <span class="required">&#42;</span></label>
+		<select name="title">
+			<option value="">Please select</option>
+			<option value="Mr">Mr</option>
+			<option value="Miss">Miss</option>
+		</select>
+		
+		<label>Forename <span class="required">&#42;</span></label>
+		<input type="text" name="forename" placeholder="Your first name">
+		
+		<label>Surname <span class="required">&#42;</span></label>
+		<input type="text" name="surname" placeholder="Your last name">
+		
+		<label>Something to say <span class="required">&#42;</span></label>
+		<textarea placeholder="Your message goes here"></textarea>
+		
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
