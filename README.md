@@ -20,5 +20,6 @@ function submitForm() {
 	$('#my-form').submit(function() {
 		return validateForm();
 	});
+}
 ```
 for a standard form submission.
